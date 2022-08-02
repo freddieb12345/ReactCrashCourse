@@ -24,7 +24,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding: 30px 20px 0;
-    width: 70px;
+    width: 100px;
     border-bottom: 1px solid #cecece;
     font-family: Roboto, sans-serif;
     font-weight: 100;
@@ -34,4 +34,10 @@ body {
 
 input[type=checkbox] {
     margin-right: 10px;
+}
+
+.completed__item {
+    color: grey;
+    font-style: italic;
+    text-decoration: line-through;
 }
